@@ -12,8 +12,9 @@ Hoje construo o ecossistema **CORTEX3**: empresas que pensam, aprendem e escalam
 
 - **1.500+** testes automatizados
 - **15+** projetos ativos com CI/CD
-- **3** apps em producao (Vercel + Neon)
+- **4** apps em producao (Vercel + Neon)
 - **100%** TypeScript
+- **5** artigos tecnicos publicados
 
 ---
 
@@ -66,6 +67,9 @@ CORTEX3 ──┬── Grupo Rao (delivery, 200+ units)
 
 - [Como Uso IA Para Construir 45 Produtos de Software em 2 Meses](https://gist.github.com/institutoveigacabral-maker/d487099d14e15561aa0df2ae389cf261)
 - [Arquitetura de Agentes IA com Anthropic SDK + Next.js](https://gist.github.com/institutoveigacabral-maker/03be66d59001bdd75cc482d42edb8e80)
+- [Como Estruturar Multi-Tenancy com Drizzle ORM no Next.js](https://gist.github.com/institutoveigacabral-maker/c9985283270a276c947b17c0d0e0176c)
+- [Rate Limiting com Upstash Redis no Next.js App Router](https://gist.github.com/institutoveigacabral-maker/02a8ad58d4736e2ff60dcf21c66ef37f)
+- [Edge Computing com Cloudflare Workers + Hono: Guia Pratico](https://gist.github.com/institutoveigacabral-maker/4ce9ad8578d8e5947f5e407da68d375f)
 
 ## Livros
 
