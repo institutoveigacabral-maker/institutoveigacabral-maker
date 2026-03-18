@@ -1,35 +1,37 @@
 # Henrique Lemos
 
-**Co-founder @ Grupo Rao** · Rio de Janeiro, Brazil
+Arquiteto de sistemas orientados por IA.
 
-Empreendedor serial com 12+ anos no setor de food delivery. Co-fundei o **Grupo Rao**, a maior rede de delivery do Brasil — 20+ marcas, 200+ unidades, 10 estados e Portugal.
-
-Hoje construo o ecossistema **CORTEX3**: empresas que pensam, aprendem e escalam como redes neurais.
-
----
-
-## Numeros
-
-- **1.500+** testes automatizados
-- **15+** projetos ativos com CI/CD
-- **4** apps em producao (Vercel + Neon)
-- **100%** TypeScript
-- **5** artigos tecnicos publicados
+Nao escrevo codigo manualmente.
+Projeto, direciono e opero sistemas onde agentes de IA executam, testam e colocam em producao.
 
 ---
 
-## Projetos em Destaque
+## O que eu faco
 
-| Projeto | Stack | Testes | Status |
-|---------|-------|--------|--------|
-| [**Cortex FC**](https://github.com/institutoveigacabral-maker/cortex-fc) | Next.js, Drizzle, Anthropic | 208 | [![CI](https://github.com/institutoveigacabral-maker/cortex-fc/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/cortex-fc/actions) |
-| [**Grupo +351**](https://github.com/institutoveigacabral-maker/grupo-351) | Next.js, Prisma, Stripe | 254 | [![CI](https://github.com/institutoveigacabral-maker/grupo-351/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/grupo-351/actions) |
-| [**Restaurant CRM**](https://github.com/institutoveigacabral-maker/restaurant-crm) | Next.js, Drizzle, Sentry | 352 | [![CI](https://github.com/institutoveigacabral-maker/restaurant-crm/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/restaurant-crm/actions) |
-| [**Missao China HQ**](https://github.com/institutoveigacabral-maker/missao-china-hq) | React, Hono, CF Workers | 89 | [![CI](https://github.com/institutoveigacabral-maker/missao-china-hq/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/missao-china-hq/actions) |
-| [**CasaRao Luz**](https://github.com/institutoveigacabral-maker/casarao-luz) | Next.js, Drizzle, NextAuth | 219 | [![CI](https://github.com/institutoveigacabral-maker/casarao-luz/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/casarao-luz/actions) |
-| [**Mundo Rao**](https://github.com/institutoveigacabral-maker/mundao) | React, Hono, CF Workers | 27 | [![CI](https://github.com/institutoveigacabral-maker/mundao/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/mundao/actions) |
+- Transformo problemas de negocio em sistemas funcionais
+- Uso IA como camada de execucao (nao como experimento)
+- Estruturo produtos com mentalidade de producao (CI, testes, deploy)
+- Conecto operacao fisica + digital (fisico -> figital)
 
-## Stack
+---
+
+## Como eu trabalho
+
+Meu papel nao e codar. E arquitetar.
+
+- Defino arquitetura e stack
+- Estruturo logica de negocio
+- Orquestro agentes de IA (Claude Code, GPTs, Gemini)
+- Valido qualidade de codigo, testes e performance
+- Itero ate producao
+
+IA nao substitui engenharia.
+IA acelera engenharia — se voce souber o que esta fazendo.
+
+---
+
+## Stack que opero (via IA)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs&logoColor=white)
@@ -43,25 +45,88 @@ Hoje construo o ecossistema **CORTEX3**: empresas que pensam, aprendem e escalam
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat&logo=sentry&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000?style=flat&logo=vercel&logoColor=white)
 
-## Ecossistema CORTEX3
+| Camada | Tecnologia |
+|--------|-----------|
+| Backend | Node.js / Hono / Cloudflare Workers |
+| Frontend | React / Next.js / TypeScript |
+| Banco | PostgreSQL (Neon) / Drizzle ORM / Prisma |
+| Infra | Vercel / Cloudflare / Docker |
+| Observabilidade | Sentry / Lighthouse CI |
+| CI/CD | GitHub Actions |
+
+---
+
+## Sistemas em producao
+
+Todos seguem o mesmo padrao: problema real, arquitetura definida antes do codigo, testes, CI ativo, deploy funcional.
+
+| Sistema | O que resolve | Stack | Status |
+|---------|--------------|-------|--------|
+| [**Restaurant CRM**](https://github.com/institutoveigacabral-maker/restaurant-crm) | Gestao operacional de restaurantes | Next.js, Drizzle, Sentry | [![CI](https://github.com/institutoveigacabral-maker/restaurant-crm/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/restaurant-crm/actions) |
+| [**Grupo +351**](https://github.com/institutoveigacabral-maker/grupo-351) | Hub de negocios e joint ventures (Portugal) | Next.js, Prisma, Stripe | [![CI](https://github.com/institutoveigacabral-maker/grupo-351/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/grupo-351/actions) |
+| [**Cortex FC**](https://github.com/institutoveigacabral-maker/cortex-fc) | Analytics esportivo com 7 agentes IA | Next.js, Drizzle, Anthropic | [![CI](https://github.com/institutoveigacabral-maker/cortex-fc/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/cortex-fc/actions) |
+| [**Missao China HQ**](https://github.com/institutoveigacabral-maker/missao-china-hq) | Supply chain China -> Brasil | React, Hono, CF Workers | [![CI](https://github.com/institutoveigacabral-maker/missao-china-hq/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/missao-china-hq/actions) |
+| [**CasaRao Luz**](https://github.com/institutoveigacabral-maker/casarao-luz) | Iluminacao arquitetural (NBR 8995-1) | Next.js, Drizzle, NextAuth | [![CI](https://github.com/institutoveigacabral-maker/casarao-luz/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/casarao-luz/actions) |
+| [**Mundo Rao**](https://github.com/institutoveigacabral-maker/mundao) | Super-app marketplace delivery | React, Hono, CF Workers | [![CI](https://github.com/institutoveigacabral-maker/mundao/actions/workflows/ci.yml/badge.svg)](https://github.com/institutoveigacabral-maker/mundao/actions) |
+
+---
+
+## Transparencia
+
+Todo codigo neste perfil e desenvolvido com suporte intensivo de IA.
+
+Meu papel:
+- Arquitetura
+- Direcao tecnica
+- Validacao de engenharia
+
+Nao escondo isso.
+Essa e a forma como sistemas modernos serao construidos.
+
+> Documentacao completa do processo: [**ai-engineering-playbook**](https://github.com/institutoveigacabral-maker/ai-engineering-playbook)
+
+---
+
+## CORTEX3
+
+CORTEX3 e uma arquitetura onde empresas funcionam como uma rede neural:
 
 ```
-CORTEX3 ──┬── Grupo Rao (delivery, 200+ units)
-           ├── Mundo Rao (super-app, 800k+ orders)
-           ├── NAIA (AI e-commerce infrastructure)
+CORTEX3 ──┬── Grupo Rao (delivery, 200+ unidades, 10 estados + Portugal)
+           ├── Mundo Rao (super-app, 800k+ pedidos)
+           ├── NAIA (infraestrutura de e-commerce com IA)
            ├── Nexial (AI Visibility)
-           ├── Missao China (import management)
-           ├── Grupo +351 (Portugal hub)
-           ├── Guard (martial arts gear)
-           ├── Thalamus (governance)
-           └── Long View (global hub)
+           ├── Missao China (gestao de importacao)
+           ├── Grupo +351 (hub Portugal)
+           ├── Guard (equipamentos de artes marciais)
+           ├── Thalamus (governanca)
+           └── Long View (hub global)
 ```
+
+Cada sistema = um no. Cada produto = uma sinapse. IA = camada de processamento.
+
+Nao sao projetos isolados. E um ecossistema conectado.
+
+---
+
+## Numeros
+
+- **1.500+** testes automatizados
+- **21** projetos ativos com CI/CD
+- **4** apps em producao (Vercel + Neon + Cloudflare)
+- **100%** TypeScript
+- **4** repos com Sentry (monitoramento de erros em producao)
+- **4** repos com Lighthouse CI (auditoria de performance)
+
+---
 
 ## GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=institutoveigacabral-maker&show_icons=true&theme=dark&hide_border=true&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=institutoveigacabral-maker&layout=compact&theme=dark&hide_border=true)
+
+---
 
 ## Artigos
 
@@ -76,6 +141,14 @@ CORTEX3 ──┬── Grupo Rao (delivery, 200+ units)
 - **Delivery Milionario** — Como construir um imperio de delivery
 - **Cortex3** — Como construir empresas que pensam, aprendem e escalam como redes neurais
 
-## Contato
+---
+
+## Colaboracao
+
+Estou aberto a parcerias tecnicas, construcao de produtos e integracoes entre sistemas.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henrique-lemos-39712b22b/)
+
+---
+
+*Brasil -> Portugal -> China. Construindo sistemas reais, nao demos.*
