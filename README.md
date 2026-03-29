@@ -81,9 +81,10 @@ CORTEX3
 
 <div align="center">
 
-![Henrique's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hlemos1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hlemos1&layout=compact&theme=github_dark&hide_border=true&langs_count=6)
+<a href="https://github.com/hlemos1">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hlemos1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hlemos1&layout=compact&theme=github_dark&hide_border=true&langs_count=6&cache_seconds=1800"/>
+</a>
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=hlemos1&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D)
 
@@ -104,13 +105,11 @@ CORTEX3
 
 ---
 
-## 📝 Articles
+## 📝 Writing & Documentation
 
-- [How I Use AI to Build 45 Software Products in 2 Months](https://github.com/hlemos1)
-- [AI Agent Architecture with Anthropic SDK + Next.js](https://github.com/hlemos1)
-- [How to Structure Multi-Tenancy with Drizzle ORM in Next.js](https://github.com/hlemos1)
-- [Rate Limiting with Upstash Redis in Next.js App Router](https://github.com/hlemos1)
-- [Edge Computing with Cloudflare Workers + Hono: Practical Guide](https://github.com/hlemos1)
+- [ai-engineering-playbook](https://github.com/hlemos1/ai-engineering-playbook) — How to build real systems using AI as execution layer
+- [ai-dev-workflow](https://github.com/hlemos1/ai-dev-workflow) — How I structure AI to operate as an engineering team
+- [cortex3-architecture](https://github.com/hlemos1/cortex3-architecture) — CORTEX3 ecosystem: businesses as neural networks
 
 ---
 
@@ -132,7 +131,5 @@ Open to technical partnerships, product building, and system integrations.
 <div align="center">
 
 ![Profile views](https://komarev.com/ghpvc/?username=hlemos1&color=brightgreen&style=flat-square)
-
-*Full process documentation: [ai-engineering-playbook](https://github.com/hlemos1) · [CORTEX3](https://henriquelemos.cortex3)*
 
 </div>
